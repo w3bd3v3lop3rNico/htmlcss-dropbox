@@ -154,6 +154,15 @@ menu {
     color: #433AF1;
 
 }
+.card-ul .check::before {
+    content: "\f00c" ;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #2E78FF;
+}
+
 
 
 
