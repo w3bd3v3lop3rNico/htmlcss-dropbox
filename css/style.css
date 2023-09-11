@@ -79,7 +79,7 @@ menu {
 
 .title-row {
     text-align: left;
-    font-size: 50px;
+    font-size: 30px;
     padding: 30px;
 }
 
@@ -105,6 +105,21 @@ menu {
     line-height: 30px;
 }
 
+/* Subscription */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-col-4 {
+    flex-basis: calc((100% /12) * 4);
+    padding-right: 15px;
+}
+.card-row :nth-child(3) {
+    padding-right: 0;
+}
+
+
+
 
 
 
@@ -112,4 +127,23 @@ menu {
 
 .debug header {
     border: 1px solid black;
+}
+
+.debug .card-row {
+    border: 2px solid red;
+    min-height: 100px;
+}
+
+.debug .card-col-4 {
+    min-height: 100px;
+    border: 2px solid green;
+}
+
+.debug .card-col-12 {
+    min-height: 40px;
+    border: 2px solid violet;
+}
+.debug .card {
+    min-height: 100px;
+    border: 3px solid black;
 }
