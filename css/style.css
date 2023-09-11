@@ -169,6 +169,8 @@ menu {
 
 
 
+
+
 /* Debug */
 
 .debug header {
@@ -193,10 +195,10 @@ menu {
     min-height: 100px;
     border: 3px solid black;
 }
-.debug .card-target {
+/* .debug .card-target {
     min-height: 30px;
     border: 3px solid orangered;
 }
 .debug .card-details {
     border: 2px solid blue;
-}
+} */
