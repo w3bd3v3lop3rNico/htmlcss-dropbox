@@ -104,6 +104,9 @@ menu {
     margin-bottom: 30px;
     line-height: 30px;
 }
+.call-to-btn {
+    display: block;
+}
 
 /* Subscription */
 .card-row {
@@ -116,6 +119,40 @@ menu {
 }
 .card-row :nth-child(3) {
     padding-right: 0;
+}
+.card-ul {
+    --icon-space: 1.3em;
+}
+.card-ul li {
+    padding-left: var(--icon-space);
+}
+
+.card-ul .folder-li::before {
+    content: "\f07b" ;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.card-ul .user-li::before {
+    content: "\f007" ;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+.card-ul .share-li::before {
+    content: "\f1e0" ;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+}
+
+.call-to-action a:last-child {
+    text-decoration: underline;
+    color: #433AF1;
+
 }
 
 
@@ -146,4 +183,11 @@ menu {
 .debug .card {
     min-height: 100px;
     border: 3px solid black;
+}
+.debug .card-target {
+    min-height: 30px;
+    border: 3px solid orangered;
+}
+.debug .card-details {
+    border: 2px solid blue;
 }
