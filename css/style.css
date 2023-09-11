@@ -1,5 +1,5 @@
 /* DEFAULT */
-html {
+body {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -69,8 +69,8 @@ menu {
     margin: 0 auto;
     background-color: #B4D0E7;
     text-align: left;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 /* .hero-content {
     display: flex;
@@ -78,7 +78,31 @@ menu {
 } */
 
 .title-row {
-    text-align: center;
+    text-align: left;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.content-row {
+    display: flex;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% / 5) * 2);
+}
+.text {
+    flex-grow: 1;
+}
+.hero-img {
+    flex-basis: calc((100% / 5) * 3);
+}
+.hero-text-item {
+    font-size: 50px;
+}
+.text * {
+    margin-bottom: 30px;
+    line-height: 30px;
 }
 
 
