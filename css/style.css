@@ -1,0 +1,22 @@
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+menu {
+    list-style: none;
+    padding: 0;
+}
