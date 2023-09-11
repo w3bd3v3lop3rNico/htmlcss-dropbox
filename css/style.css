@@ -63,10 +63,29 @@ menu {
     display: block;
 }
 
+/* HERO */
+
+.hero {
+    margin: 0 auto;
+    background-color: #B4D0E7;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.title-row {
+    text-align: center;
+}
+
+
 
 
 /* Debug */
 
-.debug, .navbar {
+.debug header {
     border: 1px solid black;
 }
