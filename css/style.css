@@ -1,3 +1,4 @@
+/* DEFAULT */
 html {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Fredoka', sans-serif;
@@ -34,4 +35,38 @@ menu {
 .container-fluid {
     width: 100%;
     margin: 0 auto;
+}
+.blue-button-item {
+    background-color: #0061FF;
+    color: white;
+}
+
+/* HEADER */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.navbar-row {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.navbar-col {
+    padding: 0 10px;
+    line-height: 20px;
+}
+.logo > img  {
+    display: block;
+}
+
+
+
+/* Debug */
+
+.debug, .navbar {
+    border: 1px solid black;
 }
