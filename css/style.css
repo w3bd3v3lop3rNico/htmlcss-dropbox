@@ -20,3 +20,17 @@ menu {
     list-style: none;
     padding: 0;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-large {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
