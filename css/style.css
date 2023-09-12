@@ -56,6 +56,7 @@ menu {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* HEADER */
 
 .navbar {
@@ -137,18 +138,43 @@ menu {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
+    
 }
-
-
+.card-target {
+   display: flex;
+   padding: 10px 0;
+   border-bottom: 1px solid gray;
+   justify-content: center;
+}
+.item-padding-left {
+    padding-left: 15px;
+}
 .card-ul {
     --icon-space: 1.3em;
 }
 .card-ul li {
     padding-left: var(--icon-space);
 }
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
 .call-to-btn {
-    display: block;
+    line-height: 50px;
+    margin: 10px 30px;
+    text-align: center;
+}
+.card.gap-15 {
+    gap: 15px;
+}
+.card-detail.bottom {
+    margin-bottom: 40px;
+}
+.card-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card-ul .folder-li::before {
     content: "\f07b" ;
