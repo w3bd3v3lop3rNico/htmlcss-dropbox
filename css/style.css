@@ -127,7 +127,7 @@ menu {
     /* justify-content: space-between; */
 }
 .cards {
-    padding: 15px;
+    padding: 0 15px;
     
 }
 /* .card-row :nth-child(3) {
@@ -135,7 +135,6 @@ menu {
 } */
 .card {
     height: 100%;
-
 }
 .card-ul {
     --icon-space: 1.3em;
@@ -211,12 +210,12 @@ menu {
     min-height: 100px;
 }
 
-.debug .card-col-4 {
+.debug .col-4 {
     min-height: 100px;
     border: 2px solid green;
 }
 
-.debug .card-col-12 {
+.debug .col-12 {
     min-height: 40px;
     border: 2px solid violet;
 }
