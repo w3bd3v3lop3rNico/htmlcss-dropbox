@@ -46,7 +46,12 @@ menu {
     color: white;
     display: inline-block;
 }
-
+.col-4 {
+    flex-basis: calc((100% /12) * 4);
+}
+.col-12 { 
+    flex-basis: 100%;
+}
 /* HEADER */
 
 .navbar {
@@ -71,6 +76,7 @@ menu {
 .navbar-row .logo {
     padding-left: 0;
 }
+
 
 /* HERO */
 
@@ -120,14 +126,13 @@ menu {
     flex-wrap: wrap;
     /* justify-content: space-between; */
 }
-.card-col-4 {
-    flex-basis: calc((100% /12) * 4);
-    padding-right: 15px;
+.cards {
+    padding: 15px;
     
 }
-.card-row :nth-child(3) {
+/* .card-row :nth-child(3) {
     padding-right: 0;
-}
+} */
 .card {
     height: 100%;
 
