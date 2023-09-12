@@ -59,7 +59,15 @@ menu {
     display: flex;
     flex-wrap: wrap;
 }
-
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-left-40 {
+    margin-left: 40px;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
 
 /* HEADER */
 
@@ -127,9 +135,7 @@ menu {
 .text .blue-button-item {
     margin-bottom: 0;
 }
-.margin-bottom-20 {
-    margin-bottom: 20px;
-}
+
 
 
 /* Subscription */
@@ -223,14 +229,6 @@ menu {
     color: #2E78FF;
 }
 
-/* .cards-title {
-    margin-bottom: 30px;
-}
-
-.cards-radio {
-    margin-bottom: 30px;
-} */
-
 
 
 
@@ -256,10 +254,10 @@ menu {
     border: 2px solid green;
 } */
 
-.debug .col-12 {
+/* .debug .col-12 {
     min-height: 40px;
     border: 2px solid violet;
-}
+} */
 /* .debug .card {
     min-height: 100px;
     border: 3px solid black;
