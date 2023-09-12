@@ -39,6 +39,7 @@ menu {
 .blue-button-item {
     background-color: #0061FF;
     color: white;
+    display: inline-block;
 }
 
 /* HEADER */
@@ -69,6 +70,7 @@ menu {
     margin: 0 auto;
     background-color: #B4D0E7;
     text-align: left;
+    margin-bottom: 50px;
     /* display: flex;
     flex-wrap: wrap; */
 }
@@ -116,9 +118,14 @@ menu {
 .card-col-4 {
     flex-basis: calc((100% /12) * 4);
     padding-right: 15px;
+    
 }
 .card-row :nth-child(3) {
     padding-right: 0;
+}
+.card {
+    height: 100%;
+
 }
 .card-ul {
     --icon-space: 1.3em;
@@ -162,6 +169,15 @@ menu {
     width: var(--icon-space);
     color: #2E78FF;
 }
+.cards-title {
+    margin-bottom: 30px;
+}
+
+.cards-radio {
+    margin-bottom: 30px;
+}
+
+.ca
 
 
 
