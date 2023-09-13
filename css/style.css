@@ -255,6 +255,17 @@ button {
     width: var(--icon-space);
     color: #2E78FF;
 }
+/* partner dropbox */
+
+.partner-button {
+    line-height: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 15px;
+}
+.partner-title {
+    font-weight: bold;
+}
 
 /* SECTION 5 */
 .discover-more {
