@@ -58,6 +58,9 @@ menu {
 .col-12 { 
     flex-basis: 100%;
 }
+.col-footer {
+    flex-basis: calc((100% / 10) * 2);
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -298,6 +301,12 @@ menu {
     align-self: flex-start;
     justify-content: flex-end;
 }
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+}
+
 
 
 
@@ -339,3 +348,6 @@ menu {
     min-height: 200px;
     border: 2px solid black;
 } */
+.debug footer {
+    min-height: 100px;
+}
