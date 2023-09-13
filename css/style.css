@@ -267,6 +267,12 @@ button {
     font-weight: bold;
 }
 
+/* dropbox operations */
+.operations-title {
+    font-size: 40px;
+}
+
+
 /* SECTION 5 */
 .discover-more {
     text-decoration: underline;
