@@ -70,7 +70,6 @@ menu {
 }
 .margin-bottom-40 {
     margin-bottom: 40px;
-
 }
 .margin-left-40 {
     margin-left: 40px;
@@ -81,6 +80,9 @@ menu {
 .display-flex {
     display: flex;
     flex-wrap: wrap;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
 }
 
 /* HEADER */
@@ -286,6 +288,7 @@ menu {
 .partner-logo-large {
     padding: 60px;
     background-color: #F5F5F5;
+    height: 100%;
 }
 /* cta fluid */
 .cta-fluid {
