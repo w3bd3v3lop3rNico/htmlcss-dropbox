@@ -170,12 +170,7 @@ menu {
     padding-left: 15px;
     padding-top: 20px;
 } */
-.card-ul {
-    --icon-space: 1.3em;
-}
-.card-ul li {
-    padding-left: var(--icon-space);
-}
+
 .call-to-action {
     display: flex;
     flex-direction: column;
@@ -195,6 +190,12 @@ menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.card-ul {
+    --icon-space: 1.3em;
+}
+.card-ul li {
+    padding-left: var(--icon-space);
 }
 .card-ul .folder-li::before {
     content: "\f07b" ;
