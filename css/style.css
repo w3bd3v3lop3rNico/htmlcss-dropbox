@@ -65,6 +65,10 @@ menu {
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
+.margin-bottom-40 {
+    margin-bottom: 40px;
+
+}
 .margin-left-40 {
     margin-left: 40px;
 }
@@ -277,10 +281,23 @@ menu {
     background-color: #FFD830;
 }
 .partner-logo-large {
-    padding: 40px;
+    padding: 60px;
     background-color: #F5F5F5;
 }
-
+/* cta fluid */
+.cta-fluid {
+    background-color: #B4D0E7;
+    padding: 100px;
+}
+.cta-agency {
+    justify-content: center;
+    align-items: center;
+}
+.cta-button {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-end;
+}
 
 
 
@@ -318,7 +335,7 @@ menu {
 .debug .card-details {
     border: 2px solid blue;
 } */
-.debug .container-large {
+/* .debug .cta-fluid {
     min-height: 200px;
     border: 2px solid black;
-}
+} */
