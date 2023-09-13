@@ -84,6 +84,13 @@ menu {
 .margin-bottom-60 {
     margin-bottom: 60px;
 }
+.margin-right-30 {
+    margin-right: 30px;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
 
 /* HEADER */
 
@@ -160,6 +167,9 @@ menu {
     padding: 0 15px;
     margin-bottom: 20px;
     
+}
+.cards-title {
+    font-size: 40px;
 }
 
 .card {
